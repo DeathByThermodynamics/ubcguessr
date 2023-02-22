@@ -5,9 +5,179 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.panorama {
+  height: 100vh;
+}
+
+.overlay {
+  height: 6vh; 
+  width: 15vw;
+  position: absolute;
+  z-index: 10; 
+  overflow: hidden;
+  border-collapse: separate;
+  border-color: gray;
+  border-right: 5px solid gray;
+  border-bottom: 5px solid gray;
+  border-bottom-right-radius: 35px; 
+  background-color: rgb(255, 255, 255);
+}
+
+.answerTab {
+  background-color: rgb(0, 0, 143);
+  color: white;
+  height: 20vh;
+  align-items: center;
+  display: flex;
+}
+
+.resultReport {
+  padding-bottom: 1%;
+
+}
+.floater {
+  height: 0vw;
+}
+.bigbutton2 {
+  margin-top: -500px;
+  color: white;
+}
+.bigButtonDiv {
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  width: 50%;
+  height: 50%;
+  font-family: Roboto; 
+  text-align: center;
+  padding: 50px;
+  overflow: hidden;
+  
+}
+.bigbutton {
+  background-color:white;
+  
+  width: 100%;
+  height: 50%;
+  color: black;
+  border: none;
+  font-family: Roboto; 
+  font-size: 100%;
+  border-radius: 25px;
+}
+
+.bigbutton:hover {
+  background-color:rgb(192, 192, 192);
+  cursor: pointer;
+}
+
+.master {
+  
+}
+
+.submitButton:hover {
+  background-color:rgb(27, 27, 255);
+  cursor: pointer;
+}
+.submitButton:disabled {
+  background-color:rgb(0, 0, 97);
+  cursor: default;
+}
+.submitButton {
+  background-color:blue;
+  color: white;
+  border: none;
+  width: 90%;
+  height: 4vh;
+  font-family: 'Roboto'; 
+  border-radius: 25px;
+  margin-top: 5%;
+
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+
+}
+
+.rightinsert {
+  width: 25vw;
+  height: 40vh;
+  background-color: gray;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  overflow: auto;
+  z-index: 5;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-top: 20px; 
+  padding: 12px;
+  
+  box-sizing: border-box;
+  
+}
+.rightinsert2 {
+  z-index: 6;
+  top: 2.5%
+}
+
+
+
+.resizable {
+  background: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.resizable .resizers{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #4286f4;
+  box-sizing: border-box;
+}
+
+.resizable .resizers .resizer{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /*magic to turn square into circle*/
+  background: white;
+  border: 3px solid #4286f4;
+  position: absolute;
+  z-index: 10;
+}
+
+.resizable .resizers .resizer.top-left {
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+  z-index: 11;
+}
+.resizable .resizers .resizer.top-right {
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+  z-index: 10;
+}
+.resizable .resizers .resizer.bottom-left {
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+  z-index: 10;
+}
+.resizable .resizers .resizer.bottom-right {
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+  z-index: 10;
 }

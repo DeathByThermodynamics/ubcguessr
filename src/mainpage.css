@@ -1,0 +1,156 @@
+.mainInset {
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    height: 27%;
+    width: 25%;
+    top: 20%;
+    left: 37.5%;
+    border-radius: 25px;
+  }
+
+  .mainInset2 {
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    height: 36%;
+    width: 25%;
+    top: 18%;
+    left: 37.5%;
+    border-radius: 25px;
+  }
+
+  .errorInset {
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    height: 10%;
+    width: 25%;
+    top: 5%;
+    left: 37.5%;
+    border-radius: 25px;
+  }
+
+.title {
+  background-color: white;
+  color: rgb(3, 3, 167);
+  margin-top: 7%;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Lucida Console', Tahoma, sans-serif;
+  margin-left: auto;
+  padding-bottom: 5%;
+}
+
+.selection {
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.selectionFinal {
+  display: flex;
+  margin: auto;
+}
+
+.selection2 {
+    margin: auto;
+    padding-top: 5%;
+    width: 100%;
+}
+.flexPlayerBox {
+    column-count:2;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    display:block;
+
+}
+.buttonContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+
+.entryleft {
+    color: rgb(3, 3, 167);
+    text-align: left;
+    font-size: 100%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    padding-bottom: 2%;
+  }
+
+  .entryright {
+    color: rgb(3, 3, 167);
+    text-align: right;
+    font-size: 100%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin-right: 20%;
+    
+  }
+.heading2 {
+    color: rgb(3, 3, 167);
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin: auto;
+    
+  }
+
+  .heading2red {
+    color: rgb(167, 3, 3);
+    text-align: center;
+    padding-top: 3%;
+    font-size: 110%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin: auto;
+    
+  }
+
+  .heading3 {
+    color: rgb(3, 3, 167);
+    text-align: center;
+    padding-top: 1%;
+    font-size: 90%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin: auto;
+    
+  }
+
+  .heading2A {
+    background-color: white;
+    color: rgb(3, 3, 167);
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin: auto;
+    word-wrap: break-word;
+    word-break:break-all;
+  }
+
+  .heading2R {
+    background-color: white;
+    color: rgb(3, 3, 167);
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    margin-right: 7%;
+  }
+
+.submitButton2:hover {
+    background-color:rgb(27, 27, 255);
+    cursor: pointer;
+  }
+  .submitButton2:disabled {
+    background-color:rgb(0, 0, 97);
+    cursor: default;
+  }
+  .submitButton2 {
+    background-color:rgb(0, 0, 126);
+    color: white;
+    border: none;
+    width: 90%;
+    height: 4vh;
+    font-family: 'Lucida Console', Tahoma, sans-serif;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 5%;
+  
+  }
