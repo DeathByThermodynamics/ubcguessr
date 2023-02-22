@@ -9,7 +9,7 @@ import randomLatLng from "./generator.js"
 
 
 const lib = ["places"];
-const key = "AIzaSyBhOyFA-NSQ3GC32Ml_BDz_VHFJcYohFE0"; // PUT GMAP API KEY HERE
+const key = ""; // PUT GMAP API KEY HERE
 
 const BORDER_SIZE = 4;
 let m_pos;
